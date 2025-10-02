@@ -35,7 +35,7 @@ Linear-Regression-Project/
 │
 ├── mobile_game_inapp_purchases.csv    # Dataset used for training and testing
 ├── Linear_regression.ipynb            # Jupyter Notebook with implementation
-├── README.md                          # Project documentation
+└── README.md                          # Project documentation
 
 
 
