@@ -33,8 +33,9 @@ The dataset used in this project is included in the repository.
 ## 📂 Repository Structure
 Linear-Regression-Project/
 │
-├── mobile_game_inapp_purchases.csv                 # Dataset used for training and testing
-├── Linear_regression(2).ipynb                      # Jupyter Notebook with implementation
-├── README.md                                       # Project documentation
+├── mobile_game_inapp_purchases.csv    # Dataset used for training and testing
+├── Linear_regression.ipynb            # Jupyter Notebook with implementation
+├── README.md                          # Project documentation
+
 
 
