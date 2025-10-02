@@ -12,12 +12,13 @@ The dataset used in this project is included in the repository.
 **Description:** Contains user-related features (such as purchase history, spending, etc.) that are used to predict target values.  
 
 ### 📊 Sample Data Preview
-| UserID (shortened) | Age | Gender | Country     | Device  | GameGenre     | Sessions | AvgSessionLen | Spending | InAppPurchase |
-| ------------------ | --- | ------ | ----------- | ------- | ------------- | -------- | ------------- | -------- | ------------- |
-| c9889ab0...0015c   | 49  | Male   | Norway      | Android | Battle Royale | 9        | 12.83         | Minnow   | 11.4          |
-| 7c9e413c...52a2    | 15  | Male   | Switzerland | iOS     | Action RPG    | 11       | 19.39         | Minnow   | 6.37          |
-| fd61e419...328a    | 23  | Male   | China       | Android | Fighting      | 9        | 8.87          | Minnow   | 15.81         |
-| bdb7f6d1...4293e   | 31  | Male   | Mexico      | Android | Racing        | 12       | 19.56         | Minnow   | 13.49         |
+| UserID                               | Age | Gender | Country     | Device  | GameGenre     | SessionCount | AverageSessionLength | SpendingSegment | InAppPurchaseAmount | FirstPurchaseDaysAfterInstall | PaymentMethod | LastPurchaseDate |
+| ------------------------------------ | --- | ------ | ----------- | ------- | ------------- | ------------ | -------------------- | --------------- | ------------------- | ----------------------------- | ------------- | ---------------- |
+| c9889ab0-9cfc-4a75-acd9-5eab1df0015c | 49  | Male   | Norway      | Android | Battle Royale | 9            | 12.83                | Minnow          | 11.4                | 28                            | Apple Pay     | 2025-03-19       |
+| 7c9e413c-ecca-45f2-a780-2826a07952a2 | 15  | Male   | Switzerland | iOS     | Action RPG    | 11           | 19.39                | Minnow          | 6.37                | 18                            | Debit Card    | 2025-06-08       |
+| fd61e419-1a92-4f43-a8c7-135842ad328a | 23  | Male   | China       | Android | Fighting      | 9            | 8.87                 | Minnow          | 15.81               | 30                            | Apple Pay     | 2025-06-02       |
+| bdb7f6d1-ff9a-468c-afe7-43f32a94293e | 31  | Male   | Mexico      | Android | Racing        | 12           | 19.56                | Minnow          | 13.49               | 9                             | Debit Card    | 2025-04-01       |
+
 
 ---
 
